@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>抽獎機器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="image.png" alt="主題圖片" class="theme-image">
+        </header>
+        <main>
+            <h1>抽獎機器</h1>
+            <input type="file" id="fileInput" accept=".csv" />
+            <button id="btn1">抽出 20 人，獎金 1000 元</button>
+            <button id="btn2">抽出 10 人，獎金 5000 元</button>
+            <button id="btn3">抽出 5 人，獎金 10000 元</button>
+            <div id="result">
+                <h2>抽獎結果</h2>
+                <ul id="winnersList"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
